@@ -2,7 +2,7 @@
 
 Response maker for Flask with RFC Standards such as Link Headers
 
-[![Build Status](https://travis-ci.org/vrcmarcos/flask-paginated-response.svg?branch=master)](https://travis-ci.org/vrcmarcos/flask-paginated-response) [![Coverage Status](https://coveralls.io/repos/github/vrcmarcos/flask-paginated-response/badge.svg?branch=master)](https://coveralls.io/github/vrcmarcos/flask-paginated-response?branch=master) [![GitHub version](https://badge.fury.io/gh/vrcmarcos%2Fflask-paginated-response.svg)](https://badge.fury.io/gh/vrcmarcos%2Fflask-paginated-response) [![Code Health](https://landscape.io/github/vrcmarcos/flask-paginated-response/master/landscape.svg?style=flat)](https://landscape.io/github/vrcmarcos/flask-paginated-response/master) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vrcmarcos/flask-paginated-response/master/LICENSE)
+[![Build Status](https://travis-ci.org/vrcmarcos/flask-paginated-response.svg?branch=master)](https://travis-ci.org/vrcmarcos/flask-paginated-response) [![Coverage Status](https://coveralls.io/repos/github/vrcmarcos/flask-paginated-response/badge.svg?branch=master)](https://coveralls.io/github/vrcmarcos/flask-paginated-response?branch=master) [![PyPI version](https://badge.fury.io/py/Flask-Paginated-Response.svg)](https://badge.fury.io/py/Flask-Paginated-Response) [![Code Health](https://landscape.io/github/vrcmarcos/flask-paginated-response/master/landscape.svg?style=flat)](https://landscape.io/github/vrcmarcos/flask-paginated-response/master) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/vrcmarcos/flask-paginated-response/master/LICENSE)
 
 ## Instalation
 
