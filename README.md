@@ -27,6 +27,18 @@ def index(self):
 	return PaginatedResponse(per_page, current_page, total, json.dumps(response))
 ```
 
+Using *PaginatedResponse* class, you will get this response headers:
+
+```bash
+HTTP/1.0 200 OK
+X-Total-Count: 18
+Link: <http://localhost:5000/?size=3&page=5>; rel="last", <http://localhost:5000/?size=3&page=1>; rel="next"
+Content-Type: application/json
+Content-Length: 515
+Server: Werkzeug/0.11.10 Python/2.7.10
+Date: Thu, 21 Jul 2016 14:08:23 GMT
+```
+
 ## Changelog
 
 #### 1.0.0:
