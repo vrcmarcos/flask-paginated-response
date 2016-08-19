@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Flask-Paginated-Response',
-    version='1.0.0',
+    version='1.0.1',
     url='https://github.com/vrcmarcos/flask-paginated-response',
     license='MIT',
     author='Marcos Cardoso',

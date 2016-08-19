@@ -41,5 +41,8 @@ Date: Thu, 21 Jul 2016 14:08:23 GMT
 
 ## Changelog
 
+#### 1.0.1:
+- **PaginatedResponse**: Extending the full *Response* **\_\_init__** method with all available *kwargs*
+
 #### 1.0.0:
 - **PaginatedResponse**: Created **PaginatedResponse** class
