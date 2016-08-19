@@ -10,7 +10,7 @@ class PaginatedResponse(Response):
 
     LINK_TEMPLATE = '<{0}size={1}&page={2}>; rel="{3}"'
 
-    def __init__(self, per_page, current_page, total, response, mimetype=None):
+    def __init__(self, per_page, current_page, total, **kwargs):
         headers = dict()
 
         link_header = self.__get_link_header(per_page, current_page, total)
@@ -18,11 +18,7 @@ class PaginatedResponse(Response):
 
         headers['X-Total-Count'] = total
 
-        super(PaginatedResponse, self).__init__(
-            response=response,
-            headers=headers,
-            mimetype=mimetype
-        )
+        super(PaginatedResponse, self).__init__(headers=headers, **kwargs)
 
     def __get_link_header(self, per_page, current_page, total):
         links = list()

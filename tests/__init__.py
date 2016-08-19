@@ -15,4 +15,4 @@ def healthcheck():
 @app.route('/paginated/has_pagination')
 def paginated():
     page = int(request.args.get('page', '1'))
-    return PaginatedResponse(20, page, 50, Response(status=200))
+    return PaginatedResponse(20, page, 50, response=Response(status=200))
